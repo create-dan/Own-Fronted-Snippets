@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Permanent+Marker&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --main-bg: #1e272e;
+    --main-color: #0097e6;
+
+}
+
+.row{
+    margin-top: 0;
+}
+
+.row span{
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.main-menu{
+    
+    background-color: black;
+}
+
+.navbar{
+    color: #fff;
+    
+    background-color: black;
+
+ 
+}
+
+.navbar a{
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.navbar li{
+    margin: 9px;
+}
+
+.navbar li a:hover{
+    transition: 0.5s;
+    color: rgba(11, 190, 235, 0.966);
+}
+
+
+
+.navbar-toggler{
+   
+    /* background-color: white; */
+
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: lightgreen;
+}
+
+
+.navbar-expand-md .navbar-toggler{display: block !important;}
+
+.fa-snowflake{
+    transition: all linear;
+    animation: rotate 2s linear infinite;
+    color: blue;
+}
+
+@keyframes rotate {
+
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+.heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: wheat;
+}
